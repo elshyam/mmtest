@@ -22,3 +22,4 @@ void cleanup_module(void)
 
 MODULE_LICENSE("GPL");
 MODULE_AUTHOR("mayhs11saini@gmail.com");
+MODULE_INFO(intree, "Y");
