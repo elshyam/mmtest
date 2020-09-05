@@ -4,7 +4,6 @@
 #include <linux/err.h>
 
 static unsigned char *ptr;
-static unsigned int pa;
 int init_module(void)
 {
 	ptr = kmalloc(4096, GFP_KERNEL);
